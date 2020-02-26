@@ -3,7 +3,7 @@
 	"singleQuote": true,
 	"bracketSpacing": true,
 	"arrowParens": "always",
-	"printWidth": 80,
+	"printWidth": 120,
 	"trailingComma": "es5",
-	"useTabs": true
+	"plugins": ["eslint"]
 }
