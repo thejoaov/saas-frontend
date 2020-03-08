@@ -1,10 +1,9 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true,
     jest: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  extends: ['airbnb', 'prettier'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -17,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'jsx-a11y', 'import','prettier'],
   rules: {
     'react/jsx-filename-extension': [
       'error',
@@ -28,4 +27,12 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/jsx-one-expression-per-line': 'off',
   },
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import":{
+        "rootPathPrefix":"~",
+        "rootPathSuffix":"src"
+      }
+    }
+  }
 };
