@@ -5,7 +5,7 @@ import { Container, SignForm } from '../styles';
 
 const SignIn = () => (
   <Container>
-    <SignForm onSubmit={() => console.log('hmmm')}>
+    <SignForm onSubmit={() => []}>
       <h1>Boas vindas</h1>
 
       <span>E-MAIL</span>
