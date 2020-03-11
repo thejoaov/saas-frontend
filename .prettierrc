@@ -1,9 +1,8 @@
 {
-	"jsxSingleQuote": true,
-	"singleQuote": true,
-	"bracketSpacing": true,
-	"arrowParens": "always",
-	"printWidth": 120,
-	"trailingComma": "es5",
-	"plugins": ["eslint"]
+  "jsxSingleQuote": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "printWidth": 120,
+  "trailingComma": "es5"
 }
